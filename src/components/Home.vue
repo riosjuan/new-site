@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div>
+    <div class="header">
       <h1>Juan Rios</h1>
       <h4>Product designer</h4>
       <p>
@@ -36,6 +36,18 @@ export default {
 <style lang="scss">
   .container {
     padding: 4rem 2rem;
+    .header {
+      margin-bottom: 2rem;
+      h1 {
+        margin-bottom: .5rem;
+      }
+      h4 {
+        margin-bottom: 1.5rem;
+      }
+      p {
+        max-width: 24rem;
+      }
+    }
   }
   .project-cards {
     display: grid;
