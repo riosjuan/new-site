@@ -8,8 +8,11 @@
       </p>
     </div>
     <div class="project-cards">
-      <app-project-card v-for="ProjectCard in ProjectCards" :project-card="ProjectCard"
-                        :key="ProjectCard.name"></app-project-card>
+      <app-project-card
+        v-for="ProjectCard in ProjectCards"
+        :project-card="ProjectCard"
+        :key="ProjectCard.name">
+      </app-project-card>
     </div>
   </div>
 </template>
