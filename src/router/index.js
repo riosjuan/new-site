@@ -15,7 +15,7 @@ export default new Router({
     },
     {
       path: ':ProjectName',
-      name: 'ProjectName',
+      name: 'project-name',
       component: Projects,
       props: true,
     },
